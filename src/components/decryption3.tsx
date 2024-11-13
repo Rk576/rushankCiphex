@@ -34,7 +34,7 @@ export function Decryption1() {
     formData.append("password", key);
   
     try {
-      const response = await fetch("http://polite-tiphani-rk696969-681a7c3a.koyeb.app/video_txt/decode/", {
+      const response = await fetch("https://polite-tiphani-rk696969-681a7c3a.koyeb.app/video_txt/decode/", {
         method: "POST",
         body: formData,
       });

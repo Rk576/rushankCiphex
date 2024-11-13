@@ -35,7 +35,7 @@ export function Encryption1() {
     formData.append("password", key);
 
     try {
-      const response = await fetch("http://polite-tiphani-rk696969-681a7c3a.koyeb.app/video_txt/encode/", {
+      const response = await fetch("https://polite-tiphani-rk696969-681a7c3a.koyeb.app/video_txt/encode/", {
         method: "POST",
         body: formData,
       });
