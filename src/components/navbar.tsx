@@ -58,6 +58,7 @@ export const NavBar: React.FC<NavParams> = (props) => {
             : "text-[#4e4b56]"
         }`}
       >
+         {/*eslint-disable-next-line jsx-a11y/alt-text*/}
         <Image /> Image{" "}
       </Button>
       <Button

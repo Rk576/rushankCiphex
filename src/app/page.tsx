@@ -46,6 +46,7 @@ export default function Home() {
         };
 
         getUser();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     if (loading) {
